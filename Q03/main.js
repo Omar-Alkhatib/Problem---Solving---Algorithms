@@ -8,6 +8,7 @@ Have the function FirstReverse(str) take the str parameter being passed and retu
 
 function FirstReverse(str) {
   // YOUR CODE HERE
+ return str.split("").reverse().join("");
 }
 
 /* 
